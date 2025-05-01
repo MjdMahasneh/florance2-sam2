@@ -38,7 +38,12 @@ SAM-2 provides precise segmentation masks for detected objects in:
 
 ## 🔧 Installation
 
-1. Clone this repository.
+1. Clone this repository:
+
+    ```bash
+    git clone https://github.com/MjdMahasneh/florance2-sam2.git
+    cd florance2-sam2
+    ```
 
 2. Install dependencies:
    ```bash
