@@ -7,3 +7,5 @@
 
 /checkpoints
 /temp
+
+*.pyc
