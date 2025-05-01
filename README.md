@@ -98,10 +98,15 @@ from utils.modes import IMAGE_OPEN_VOCABULARY_DETECTION_MODE
 result_img, _ = process_image(
     mode=IMAGE_OPEN_VOCABULARY_DETECTION_MODE,
     image_path="./samples/image.png",
-    text_input="dog, cat, person",
+    text_input="dog, cat",
     output_path="./samples/output_detection.png"
 )
 ```
+
+example result:
+
+![example result](./samples/output.png)
+
 
 ### Example 2. Image Caption Grounding with Masks
 
@@ -147,7 +152,7 @@ To add new processing modes:
 
 
 ### Reference:
-- [Florance-2+SAM2 Hugging face Space](https://huggingface.co/spaces/SkalskiP/florence-sam) (Special thanks).
+- [Florance-2+SAM2 Hugging face Space](https://huggingface.co/spaces/SkalskiP/florence-sam). Special thanks to [SkalskiP](https://huggingface.co/SkalskiP) for there great work on the Hugging Face Space.
 - [Segment Anything 2](https://github.com/facebookresearch/segment-anything-2).
 - [How to segment images with SAM-2](https://colab.research.google.com/github/roboflow-ai/notebooks/blob/main/notebooks/how-to-segment-images-with-sam-2.ipynb).
 - [What-is SAM-2](https://blog.roboflow.com/what-is-segment-anything-2/).
