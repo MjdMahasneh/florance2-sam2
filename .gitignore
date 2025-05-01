@@ -1,0 +1,9 @@
+/venv
+/.idea
+/tmp
+/videos
+/__pycache__
+
+
+/checkpoints
+/temp
